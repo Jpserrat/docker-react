@@ -11,6 +11,7 @@ script:
 language: generic
 
 deploy:
+  edge: true
   provider: elasticbeanstalk
   region: "sa-east-1"
   app: "docker-react"
